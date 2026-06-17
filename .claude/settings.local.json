@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose up *)",
+      "Bash(curl -s http://localhost:8000/courses)",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s http://localhost:8000/assignments)",
+      "Bash(curl -s \"http://localhost:8000/assignments?status=pending\")",
+      "Bash(docker compose *)",
+      "Bash(curl -s -X PATCH http://localhost:8000/assignments/1/status -H 'Content-Type: application/json' -d '{\"status\": \"in_progress\"}')",
+      "Bash(curl -s http://localhost:8000/assignments/priority)",
+      "Bash(curl -s http://localhost:8000/assignments/due-this-week)",
+      "Bash(curl -s http://localhost:8000/assignments/overdue)",
+      "Bash(curl -s http://localhost:8000/courses/1)",
+      "Bash(curl -s http://localhost:8000/courses/999)",
+      "Bash(python3 *)",
+      "Bash(curl -s -X PATCH http://localhost:8000/assignments/1/status -H 'Content-Type: application/json' -d '{\"status\":\"in_progress\"}')",
+      "Bash(curl -s -X PATCH http://localhost:8000/assignments/999/status -H 'Content-Type: application/json' -d '{\"status\":\"completed\"}')",
+      "Bash(curl -sv http://localhost:8000/courses/1)",
+      "Bash(curl *)",
+      "Skill(run)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(mkdir -p /tmp/academic-os-test)",
+      "Bash(npm init *)",
+      "Bash(npx --yes playwright install chromium)",
+      "Bash(npm install *)",
+      "Bash(node drive.js)",
+      "Bash(mkdir -p /tmp/academic-os-test2)",
+      "Bash(mkdir -p /tmp/aos-ui-test)",
+      "Bash(node --check /tmp/extracted.js)",
+      "Bash(mkdir -p /tmp/aos-mem-test)",
+      "Bash(npx playwright *)",
+      "Bash(node test.js)",
+      "Bash(node ui_test.js)",
+      "Bash(docker exec academic-os-db-1 *)",
+      "Bash(xargs -I{} sh -c 'echo {}; head -3 {}')"
+    ]
+  }
+}

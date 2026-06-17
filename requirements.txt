@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+pymupdf
+openai
+python-multipart
+pydantic
+alembic
+psycopg2-binary
+pgvector
+langgraph
+langchain-openai
+aiofiles
+apscheduler
+icalendar
