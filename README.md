@@ -4,8 +4,6 @@ An AI agent that reads your syllabus, tracks every assignment and exam, and tell
 
 **Live demo:** [agentic-academic-os-production.up.railway.app](https://agentic-academic-os-production.up.railway.app)
 
-![Dashboard screenshot placeholder](docs/screenshot.png)
-
 <!--
   Replace docs/screenshot.png with an actual screenshot of the dashboard
   or chat view before publishing.
